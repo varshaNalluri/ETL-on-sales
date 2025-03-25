@@ -42,6 +42,3 @@ Run unit tests using:
 pytest unittests/
 ```
 
-## License
-This project is licensed under the MIT License.
-
