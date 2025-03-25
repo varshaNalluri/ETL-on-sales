@@ -1,0 +1,295 @@
+2025-03-20 23:19:44,879 - INFO - Extracted data successfully from C:\Users\Nalluri_Sri_varsha\OneDrive - Dell Technologies\Desktop\LLM\ETL\Warehouse_and_Retail_Sales.csv
+2025-03-20 23:19:44,879 - INFO - Extraction Time: 0.5917737483978271 seconds
+2025-03-20 23:19:44,879 - INFO - Starting data transformation...
+2025-03-20 23:19:44,991 - INFO - Initial Null Count:
+YEAR                  0
+MONTH                 0
+SUPPLIER            167
+ITEM CODE             0
+ITEM DESCRIPTION      0
+ITEM TYPE             1
+RETAIL SALES          3
+RETAIL TRANSFERS      0
+WAREHOUSE SALES       0
+dtype: int64
+2025-03-20 23:19:45,061 - INFO - Rows with missing 'SUPPLIER' or 'ITEM TYPE' dropped. Remaining rows: 307477
+2025-03-20 23:19:45,123 - INFO - Column 'SUPPLIER' has unique values: ['REPUBLIC NATIONAL DISTRIBUTING CO' 'PWSWN INC' 'RELIABLE CHURCHILL LLLP'
+ 'LANTERNA DISTRIBUTORS INC' 'DIONYSOS IMPORTS INC'
+ 'KYSELA PERE ET FILS LTD' 'SANTA MARGHERITA USA INC'
+ 'BROWN-FORMAN BEVERAGES WORLDWIDE' 'JIM BEAM BRANDS CO'
+ 'INTERNATIONAL CELLARS LLC']
+2025-03-20 23:19:45,142 - INFO - Column 'ITEM CODE' has unique values: ['100009' '100024' '1001' '100145' '100293' '100641' '100749' '1008'
+ '10103' '101117']
+2025-03-20 23:19:45,189 - INFO - Column 'ITEM DESCRIPTION' has unique values: ['BOOTLEG RED - 750ML' 'MOMENT DE PLAISIR - 750ML'
+ 'S SMITH ORGANIC PEAR CIDER - 18.7OZ' 'SCHLINK HAUS KABINETT - 750ML'
+ 'SANTORINI GAVALA WHITE - 750ML' 'CORTENOVA VENETO P/GRIG - 750ML'
+ 'SANTA MARGHERITA P/GRIG ALTO - 375ML'
+ 'JACK DANIELS COUNTRY COCKTAIL SOUTHERN PEACH - 10.OZ-NR'
+ 'KNOB CREEK BOURBON 9YR - 100P - 375ML' 'KSARA CAB - 750ML']
+2025-03-20 23:19:45,210 - INFO - Column 'ITEM TYPE' has unique values: ['WINE' 'BEER' 'LIQUOR' 'STR_SUPPLIES' 'KEGS' 'REF' 'NON-ALCOHOL'
+ 'DUNNAGE']
+2025-03-20 23:19:45,215 - INFO - Calculated 'TOTAL SALES' for all records.
+2025-03-20 23:19:45,506 - INFO - Removed 0 duplicate rows. Remaining rows: 307477
+2025-03-20 23:19:49,375 - INFO - Calculated 'PROFIT MARGIN' for all records.
+2025-03-20 23:19:49,375 - INFO - Data transformation completed successfully.
+2025-03-20 23:19:52,149 - INFO - Data successfully saved to C:\Users\Nalluri_Sri_varsha\OneDrive - Dell Technologies\Desktop\LLM\ETL\transformed_data.csv
+2025-03-20 23:19:52,149 - INFO - ETL Process Completed Successfully!
+2025-03-20 23:20:14,067 - INFO - Extracted data successfully from C:\Users\Nalluri_Sri_varsha\OneDrive - Dell Technologies\Desktop\LLM\ETL\Warehouse_and_Retail_Sales.csv
+2025-03-20 23:20:14,067 - INFO - Extraction Time: 0.7333378791809082 seconds
+2025-03-20 23:20:14,067 - INFO - Starting data transformation...
+2025-03-20 23:20:14,156 - INFO - Initial Null Count:
+YEAR                  0
+MONTH                 0
+SUPPLIER            167
+ITEM CODE             0
+ITEM DESCRIPTION      0
+ITEM TYPE             1
+RETAIL SALES          3
+RETAIL TRANSFERS      0
+WAREHOUSE SALES       0
+dtype: int64
+2025-03-20 23:20:14,222 - INFO - Rows with missing 'SUPPLIER' or 'ITEM TYPE' dropped. Remaining rows: 307477
+2025-03-20 23:20:14,269 - INFO - Column 'SUPPLIER' has unique values: ['REPUBLIC NATIONAL DISTRIBUTING CO' 'PWSWN INC' 'RELIABLE CHURCHILL LLLP'
+ 'LANTERNA DISTRIBUTORS INC' 'DIONYSOS IMPORTS INC'
+ 'KYSELA PERE ET FILS LTD' 'SANTA MARGHERITA USA INC'
+ 'BROWN-FORMAN BEVERAGES WORLDWIDE' 'JIM BEAM BRANDS CO'
+ 'INTERNATIONAL CELLARS LLC']
+2025-03-20 23:20:14,291 - INFO - Column 'ITEM CODE' has unique values: ['100009' '100024' '1001' '100145' '100293' '100641' '100749' '1008'
+ '10103' '101117']
+2025-03-20 23:20:14,349 - INFO - Column 'ITEM DESCRIPTION' has unique values: ['BOOTLEG RED - 750ML' 'MOMENT DE PLAISIR - 750ML'
+ 'S SMITH ORGANIC PEAR CIDER - 18.7OZ' 'SCHLINK HAUS KABINETT - 750ML'
+ 'SANTORINI GAVALA WHITE - 750ML' 'CORTENOVA VENETO P/GRIG - 750ML'
+ 'SANTA MARGHERITA P/GRIG ALTO - 375ML'
+ 'JACK DANIELS COUNTRY COCKTAIL SOUTHERN PEACH - 10.OZ-NR'
+ 'KNOB CREEK BOURBON 9YR - 100P - 375ML' 'KSARA CAB - 750ML']
+2025-03-20 23:20:14,358 - INFO - Column 'ITEM TYPE' has unique values: ['WINE' 'BEER' 'LIQUOR' 'STR_SUPPLIES' 'KEGS' 'REF' 'NON-ALCOHOL'
+ 'DUNNAGE']
+2025-03-20 23:20:14,366 - INFO - Calculated 'TOTAL SALES' for all records.
+2025-03-20 23:20:14,633 - INFO - Removed 0 duplicate rows. Remaining rows: 307477
+2025-03-20 23:20:24,590 - INFO - Calculated 'PROFIT MARGIN' for all records.
+2025-03-20 23:20:24,590 - INFO - Data transformation completed successfully.
+2025-03-20 23:20:27,514 - INFO - Data successfully saved to C:\Users\Nalluri_Sri_varsha\OneDrive - Dell Technologies\Desktop\LLM\ETL\transformed_data.csv
+2025-03-20 23:20:27,517 - INFO - ETL Process Completed Successfully!
+2025-03-20 23:20:27,542 - ERROR - Failed to extract data: [Errno 2] No such file or directory: 'ETL/Warehouse_and_Retail_Sales.csv'
+2025-03-20 23:20:27,542 - INFO - Extraction Time: 0.0 seconds
+2025-03-20 23:20:27,551 - INFO - Starting data transformation...
+2025-03-20 23:20:27,551 - INFO - Initial Null Count:
+RETAIL SALES        0
+RETAIL TRANSFERS    0
+WAREHOUSE SALES     0
+dtype: int64
+2025-03-20 23:20:27,557 - ERROR - Error during data transformation: ['SUPPLIER', 'ITEM TYPE']
+2025-03-20 23:20:27,703 - INFO - Starting data transformation...
+2025-03-20 23:20:27,703 - INFO - Initial Null Count:
+RETAIL SALES        0
+RETAIL TRANSFERS    0
+WAREHOUSE SALES     0
+dtype: int64
+2025-03-20 23:20:27,708 - ERROR - Error during data transformation: ['SUPPLIER', 'ITEM TYPE']
+2025-03-20 23:25:02,412 - INFO - Extracted data successfully from C:\Users\Nalluri_Sri_varsha\OneDrive - Dell Technologies\Desktop\LLM\ETL\Warehouse_and_Retail_Sales.csv
+2025-03-20 23:25:02,412 - INFO - Extraction Time: 0.44008421897888184 seconds
+2025-03-20 23:25:02,412 - INFO - Starting data transformation...
+2025-03-20 23:25:02,478 - INFO - Initial Null Count:
+YEAR                  0
+MONTH                 0
+SUPPLIER            167
+ITEM CODE             0
+ITEM DESCRIPTION      0
+ITEM TYPE             1
+RETAIL SALES          3
+RETAIL TRANSFERS      0
+WAREHOUSE SALES       0
+dtype: int64
+2025-03-20 23:25:02,530 - INFO - Rows with missing 'SUPPLIER' or 'ITEM TYPE' dropped. Remaining rows: 307477
+2025-03-20 23:25:02,576 - INFO - Column 'SUPPLIER' has unique values: ['REPUBLIC NATIONAL DISTRIBUTING CO' 'PWSWN INC' 'RELIABLE CHURCHILL LLLP'
+ 'LANTERNA DISTRIBUTORS INC' 'DIONYSOS IMPORTS INC'
+ 'KYSELA PERE ET FILS LTD' 'SANTA MARGHERITA USA INC'
+ 'BROWN-FORMAN BEVERAGES WORLDWIDE' 'JIM BEAM BRANDS CO'
+ 'INTERNATIONAL CELLARS LLC']
+2025-03-20 23:25:02,609 - INFO - Column 'ITEM CODE' has unique values: ['100009' '100024' '1001' '100145' '100293' '100641' '100749' '1008'
+ '10103' '101117']
+2025-03-20 23:25:02,659 - INFO - Column 'ITEM DESCRIPTION' has unique values: ['BOOTLEG RED - 750ML' 'MOMENT DE PLAISIR - 750ML'
+ 'S SMITH ORGANIC PEAR CIDER - 18.7OZ' 'SCHLINK HAUS KABINETT - 750ML'
+ 'SANTORINI GAVALA WHITE - 750ML' 'CORTENOVA VENETO P/GRIG - 750ML'
+ 'SANTA MARGHERITA P/GRIG ALTO - 375ML'
+ 'JACK DANIELS COUNTRY COCKTAIL SOUTHERN PEACH - 10.OZ-NR'
+ 'KNOB CREEK BOURBON 9YR - 100P - 375ML' 'KSARA CAB - 750ML']
+2025-03-20 23:25:02,676 - INFO - Column 'ITEM TYPE' has unique values: ['WINE' 'BEER' 'LIQUOR' 'STR_SUPPLIES' 'KEGS' 'REF' 'NON-ALCOHOL'
+ 'DUNNAGE']
+2025-03-20 23:25:02,676 - INFO - Calculated 'TOTAL SALES' for all records.
+2025-03-20 23:25:03,016 - INFO - Removed 0 duplicate rows. Remaining rows: 307477
+2025-03-20 23:25:08,260 - INFO - Calculated 'PROFIT MARGIN' for all records.
+2025-03-20 23:25:08,260 - INFO - Data transformation completed successfully.
+2025-03-20 23:25:10,801 - INFO - Data successfully saved to C:\Users\Nalluri_Sri_varsha\OneDrive - Dell Technologies\Desktop\LLM\ETL\transformed_data.csv
+2025-03-20 23:25:10,801 - INFO - ETL Process Completed Successfully!
+2025-03-20 23:25:10,826 - ERROR - Failed to extract data: [Errno 2] No such file or directory: 'ETL/Warehouse_and_Retail_Sales.csv'
+2025-03-20 23:25:10,828 - INFO - Extraction Time: 0.0 seconds
+2025-03-20 23:25:10,833 - INFO - Starting data transformation...
+2025-03-20 23:25:10,839 - INFO - Initial Null Count:
+SUPPLIER            0
+ITEM TYPE           0
+RETAIL SALES        0
+RETAIL TRANSFERS    0
+WAREHOUSE SALES     0
+dtype: int64
+2025-03-20 23:25:10,841 - INFO - Rows with missing 'SUPPLIER' or 'ITEM TYPE' dropped. Remaining rows: 3
+2025-03-20 23:25:10,841 - INFO - Column 'SUPPLIER' has unique values: ['REPUBLIC NATIONAL DISTRIBUTING CO' 'PWSWN INC' 'RELIABLE CHURCHILL LLLP']
+2025-03-20 23:25:10,841 - INFO - Column 'ITEM TYPE' has unique values: ['WINE' 'BEER' 'LIQUOR']
+2025-03-20 23:25:10,841 - INFO - Calculated 'TOTAL SALES' for all records.
+2025-03-20 23:25:10,841 - INFO - Removed 0 duplicate rows. Remaining rows: 3
+2025-03-20 23:25:10,841 - INFO - Calculated 'PROFIT MARGIN' for all records.
+2025-03-20 23:25:10,841 - INFO - Data transformation completed successfully.
+2025-03-20 23:25:10,849 - ERROR - Failed to save data to ETL/test_output.csv: Cannot save file into a non-existent directory: 'ETL'
+2025-03-20 23:25:11,106 - INFO - Starting data transformation...
+2025-03-20 23:25:11,106 - INFO - Initial Null Count:
+SUPPLIER            0
+ITEM TYPE           0
+RETAIL SALES        0
+RETAIL TRANSFERS    0
+WAREHOUSE SALES     0
+dtype: int64
+2025-03-20 23:25:11,106 - INFO - Rows with missing 'SUPPLIER' or 'ITEM TYPE' dropped. Remaining rows: 3
+2025-03-20 23:25:11,106 - INFO - Column 'SUPPLIER' has unique values: ['REPUBLIC NATIONAL DISTRIBUTING CO' 'PWSWN INC' 'RELIABLE CHURCHILL LLLP']
+2025-03-20 23:25:11,106 - INFO - Column 'ITEM TYPE' has unique values: ['WINE' 'BEER' 'LIQUOR']
+2025-03-20 23:25:11,106 - INFO - Calculated 'TOTAL SALES' for all records.
+2025-03-20 23:25:11,106 - INFO - Removed 0 duplicate rows. Remaining rows: 3
+2025-03-20 23:25:11,106 - INFO - Calculated 'PROFIT MARGIN' for all records.
+2025-03-20 23:25:11,106 - INFO - Data transformation completed successfully.
+2025-03-20 23:26:01,530 - INFO - Extracted data successfully from C:\Users\Nalluri_Sri_varsha\OneDrive - Dell Technologies\Desktop\LLM\ETL\Warehouse_and_Retail_Sales.csv
+2025-03-20 23:26:01,530 - INFO - Extraction Time: 0.5056896209716797 seconds
+2025-03-20 23:26:01,530 - INFO - Starting data transformation...
+2025-03-20 23:26:01,579 - INFO - Initial Null Count:
+YEAR                  0
+MONTH                 0
+SUPPLIER            167
+ITEM CODE             0
+ITEM DESCRIPTION      0
+ITEM TYPE             1
+RETAIL SALES          3
+RETAIL TRANSFERS      0
+WAREHOUSE SALES       0
+dtype: int64
+2025-03-20 23:26:01,636 - INFO - Rows with missing 'SUPPLIER' or 'ITEM TYPE' dropped. Remaining rows: 307477
+2025-03-20 23:26:01,677 - INFO - Column 'SUPPLIER' has unique values: ['REPUBLIC NATIONAL DISTRIBUTING CO' 'PWSWN INC' 'RELIABLE CHURCHILL LLLP'
+ 'LANTERNA DISTRIBUTORS INC' 'DIONYSOS IMPORTS INC'
+ 'KYSELA PERE ET FILS LTD' 'SANTA MARGHERITA USA INC'
+ 'BROWN-FORMAN BEVERAGES WORLDWIDE' 'JIM BEAM BRANDS CO'
+ 'INTERNATIONAL CELLARS LLC']
+2025-03-20 23:26:01,693 - INFO - Column 'ITEM CODE' has unique values: ['100009' '100024' '1001' '100145' '100293' '100641' '100749' '1008'
+ '10103' '101117']
+2025-03-20 23:26:01,742 - INFO - Column 'ITEM DESCRIPTION' has unique values: ['BOOTLEG RED - 750ML' 'MOMENT DE PLAISIR - 750ML'
+ 'S SMITH ORGANIC PEAR CIDER - 18.7OZ' 'SCHLINK HAUS KABINETT - 750ML'
+ 'SANTORINI GAVALA WHITE - 750ML' 'CORTENOVA VENETO P/GRIG - 750ML'
+ 'SANTA MARGHERITA P/GRIG ALTO - 375ML'
+ 'JACK DANIELS COUNTRY COCKTAIL SOUTHERN PEACH - 10.OZ-NR'
+ 'KNOB CREEK BOURBON 9YR - 100P - 375ML' 'KSARA CAB - 750ML']
+2025-03-20 23:26:01,750 - INFO - Column 'ITEM TYPE' has unique values: ['WINE' 'BEER' 'LIQUOR' 'STR_SUPPLIES' 'KEGS' 'REF' 'NON-ALCOHOL'
+ 'DUNNAGE']
+2025-03-20 23:26:01,750 - INFO - Calculated 'TOTAL SALES' for all records.
+2025-03-20 23:26:01,979 - INFO - Removed 0 duplicate rows. Remaining rows: 307477
+2025-03-20 23:26:06,596 - INFO - Calculated 'PROFIT MARGIN' for all records.
+2025-03-20 23:26:06,596 - INFO - Data transformation completed successfully.
+2025-03-20 23:26:10,319 - INFO - Data successfully saved to C:\Users\Nalluri_Sri_varsha\OneDrive - Dell Technologies\Desktop\LLM\ETL\transformed_data.csv
+2025-03-20 23:26:10,319 - INFO - ETL Process Completed Successfully!
+2025-03-20 23:26:10,355 - ERROR - Failed to extract data: [Errno 2] No such file or directory: 'ETL/Warehouse_and_Retail_Sales.csv'
+2025-03-20 23:26:10,355 - INFO - Extraction Time: 0.0 seconds
+2025-03-20 23:26:10,440 - INFO - Starting data transformation...
+2025-03-20 23:26:10,450 - INFO - Initial Null Count:
+SUPPLIER            0
+ITEM TYPE           0
+RETAIL SALES        0
+RETAIL TRANSFERS    0
+WAREHOUSE SALES     0
+dtype: int64
+2025-03-20 23:26:10,450 - INFO - Rows with missing 'SUPPLIER' or 'ITEM TYPE' dropped. Remaining rows: 3
+2025-03-20 23:26:10,450 - INFO - Column 'SUPPLIER' has unique values: ['REPUBLIC NATIONAL DISTRIBUTING CO' 'PWSWN INC' 'RELIABLE CHURCHILL LLLP']
+2025-03-20 23:26:10,450 - INFO - Column 'ITEM TYPE' has unique values: ['WINE' 'BEER' 'LIQUOR']
+2025-03-20 23:26:10,450 - INFO - Calculated 'TOTAL SALES' for all records.
+2025-03-20 23:26:10,450 - INFO - Removed 0 duplicate rows. Remaining rows: 3
+2025-03-20 23:26:10,450 - INFO - Calculated 'PROFIT MARGIN' for all records.
+2025-03-20 23:26:10,450 - INFO - Data transformation completed successfully.
+2025-03-20 23:26:10,487 - INFO - Data successfully saved to test_output.csv
+2025-03-20 23:26:10,544 - INFO - Starting data transformation...
+2025-03-20 23:26:10,544 - INFO - Initial Null Count:
+SUPPLIER            0
+ITEM TYPE           0
+RETAIL SALES        0
+RETAIL TRANSFERS    0
+WAREHOUSE SALES     0
+dtype: int64
+2025-03-20 23:26:10,560 - INFO - Rows with missing 'SUPPLIER' or 'ITEM TYPE' dropped. Remaining rows: 3
+2025-03-20 23:26:10,560 - INFO - Column 'SUPPLIER' has unique values: ['REPUBLIC NATIONAL DISTRIBUTING CO' 'PWSWN INC' 'RELIABLE CHURCHILL LLLP']
+2025-03-20 23:26:10,560 - INFO - Column 'ITEM TYPE' has unique values: ['WINE' 'BEER' 'LIQUOR']
+2025-03-20 23:26:10,560 - INFO - Calculated 'TOTAL SALES' for all records.
+2025-03-20 23:26:10,560 - INFO - Removed 0 duplicate rows. Remaining rows: 3
+2025-03-20 23:26:10,560 - INFO - Calculated 'PROFIT MARGIN' for all records.
+2025-03-20 23:26:10,560 - INFO - Data transformation completed successfully.
+2025-03-21 22:28:18,049 - INFO - Extracted data successfully from C:\Users\Nalluri_Sri_varsha\OneDrive - Dell Technologies\Desktop\LLM\ETL\Warehouse_and_Retail_Sales.csv
+2025-03-21 22:28:18,051 - INFO - Extraction Time: 0.3621668815612793 seconds
+2025-03-21 22:28:18,051 - INFO - Starting data transformation...
+2025-03-21 22:28:18,119 - INFO - Initial Null Count:
+YEAR                  0
+MONTH                 0
+SUPPLIER            167
+ITEM CODE             0
+ITEM DESCRIPTION      0
+ITEM TYPE             1
+RETAIL SALES          3
+RETAIL TRANSFERS      0
+WAREHOUSE SALES       0
+dtype: int64
+2025-03-21 22:28:18,158 - INFO - Rows with missing 'SUPPLIER' or 'ITEM TYPE' dropped. Remaining rows: 307477
+2025-03-21 22:28:18,186 - INFO - Column 'SUPPLIER' has unique values: ['REPUBLIC NATIONAL DISTRIBUTING CO' 'PWSWN INC' 'RELIABLE CHURCHILL LLLP'
+ 'LANTERNA DISTRIBUTORS INC' 'DIONYSOS IMPORTS INC'
+ 'KYSELA PERE ET FILS LTD' 'SANTA MARGHERITA USA INC'
+ 'BROWN-FORMAN BEVERAGES WORLDWIDE' 'JIM BEAM BRANDS CO'
+ 'INTERNATIONAL CELLARS LLC']
+2025-03-21 22:28:18,199 - INFO - Column 'ITEM CODE' has unique values: ['100009' '100024' '1001' '100145' '100293' '100641' '100749' '1008'
+ '10103' '101117']
+2025-03-21 22:28:18,227 - INFO - Column 'ITEM DESCRIPTION' has unique values: ['BOOTLEG RED - 750ML' 'MOMENT DE PLAISIR - 750ML'
+ 'S SMITH ORGANIC PEAR CIDER - 18.7OZ' 'SCHLINK HAUS KABINETT - 750ML'
+ 'SANTORINI GAVALA WHITE - 750ML' 'CORTENOVA VENETO P/GRIG - 750ML'
+ 'SANTA MARGHERITA P/GRIG ALTO - 375ML'
+ 'JACK DANIELS COUNTRY COCKTAIL SOUTHERN PEACH - 10.OZ-NR'
+ 'KNOB CREEK BOURBON 9YR - 100P - 375ML' 'KSARA CAB - 750ML']
+2025-03-21 22:28:18,235 - INFO - Column 'ITEM TYPE' has unique values: ['WINE' 'BEER' 'LIQUOR' 'STR_SUPPLIES' 'KEGS' 'REF' 'NON-ALCOHOL'
+ 'DUNNAGE']
+2025-03-21 22:28:18,238 - INFO - Calculated 'TOTAL SALES' for all records.
+2025-03-21 22:28:18,402 - INFO - Removed 0 duplicate rows. Remaining rows: 307477
+2025-03-21 22:28:20,610 - INFO - Calculated 'PROFIT MARGIN' for all records.
+2025-03-21 22:28:20,610 - INFO - Data transformation completed successfully.
+2025-03-21 22:28:23,185 - INFO - Data successfully saved to C:\Users\Nalluri_Sri_varsha\OneDrive - Dell Technologies\Desktop\LLM\ETL\transformed_data.csv
+2025-03-21 22:28:23,185 - INFO - ETL Process Completed Successfully!
+2025-03-21 22:28:23,209 - ERROR - Failed to extract data: [Errno 2] No such file or directory: 'ETL/Warehouse_and_Retail_Sales.csv'
+2025-03-21 22:28:23,210 - INFO - Extraction Time: 0.0018625259399414062 seconds
+2025-03-21 22:28:23,271 - INFO - Starting data transformation...
+2025-03-21 22:28:23,275 - INFO - Initial Null Count:
+SUPPLIER            0
+ITEM TYPE           0
+RETAIL SALES        0
+RETAIL TRANSFERS    0
+WAREHOUSE SALES     0
+dtype: int64
+2025-03-21 22:28:23,275 - INFO - Rows with missing 'SUPPLIER' or 'ITEM TYPE' dropped. Remaining rows: 3
+2025-03-21 22:28:23,275 - INFO - Column 'SUPPLIER' has unique values: ['REPUBLIC NATIONAL DISTRIBUTING CO' 'PWSWN INC' 'RELIABLE CHURCHILL LLLP']
+2025-03-21 22:28:23,283 - INFO - Column 'ITEM TYPE' has unique values: ['WINE' 'BEER' 'LIQUOR']
+2025-03-21 22:28:23,285 - INFO - Calculated 'TOTAL SALES' for all records.
+2025-03-21 22:28:23,288 - INFO - Removed 0 duplicate rows. Remaining rows: 3
+2025-03-21 22:28:23,291 - INFO - Calculated 'PROFIT MARGIN' for all records.
+2025-03-21 22:28:23,291 - INFO - Data transformation completed successfully.
+2025-03-21 22:28:23,309 - INFO - Data successfully saved to test_output.csv
+2025-03-21 22:28:23,320 - INFO - Starting data transformation...
+2025-03-21 22:28:23,322 - INFO - Initial Null Count:
+SUPPLIER            0
+ITEM TYPE           0
+RETAIL SALES        0
+RETAIL TRANSFERS    0
+WAREHOUSE SALES     0
+dtype: int64
+2025-03-21 22:28:23,326 - INFO - Rows with missing 'SUPPLIER' or 'ITEM TYPE' dropped. Remaining rows: 3
+2025-03-21 22:28:23,330 - INFO - Column 'SUPPLIER' has unique values: ['REPUBLIC NATIONAL DISTRIBUTING CO' 'PWSWN INC' 'RELIABLE CHURCHILL LLLP']
+2025-03-21 22:28:23,331 - INFO - Column 'ITEM TYPE' has unique values: ['WINE' 'BEER' 'LIQUOR']
+2025-03-21 22:28:23,333 - INFO - Calculated 'TOTAL SALES' for all records.
+2025-03-21 22:28:23,336 - INFO - Removed 0 duplicate rows. Remaining rows: 3
+2025-03-21 22:28:23,338 - INFO - Calculated 'PROFIT MARGIN' for all records.
+2025-03-21 22:28:23,338 - INFO - Data transformation completed successfully.
